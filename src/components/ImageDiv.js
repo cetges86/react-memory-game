@@ -20,17 +20,19 @@ class ImageDiv extends Component {
             [arr[i], arr[j]] = [arr[j], arr[i]];
         }
         console.log(arr)
-        arr.splice(0,7);
+        arr.splice(0, 7);
         this.setState({ shuffledArray: arr })
     }
 
     render() {
         return (
             <div className="container">
-                {this.state.shuffledArray.map(char => {
-                    
-                    return <ImgCard {...char} />
-                })}
+                <div className="row h-100 justify-content-center align-items-center">
+                    {this.state.shuffledArray.map(char => {
+
+                        return <ImgCard {...char} />
+                    })}
+                </div>
             </div>
         )
     }

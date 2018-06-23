@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import ImageCard from './ImageCard';
+import ImageCard from './ImageDiv';
 
 const Container = () => (
     <div>

@@ -2,3 +2,19 @@
     min-height: 350px;
     /*background-image */
 }
+
+.card {
+    display: inline-block;
+    max-height: 200px;
+    margin:5px;
+
+}
+
+.img-container {
+
+    max-height: 200px;
+}
+
+img {
+    height: 200px;
+}

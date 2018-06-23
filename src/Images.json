@@ -1,0 +1,136 @@
+[{
+    "id":1,
+    "img":"./img/Apu.png",
+    "name":"Apu"
+},
+{
+    "id":2,
+    "img":"./img/Barney.png",
+    "name":"Barney"
+},
+{
+    "id":3,
+    "img":"./img/Bart.png",
+    "name":"Bart"
+},
+{
+    "id":4,
+    "img":"./img/Chief Wiggum.png",
+    "name":"Chief Clancy Wiggum"
+},
+{
+    "id":5,
+    "img":"./img/Grandpa.png",
+    "name":"Grandpa Abe Simpson"
+},
+{
+    "id":6,
+    "img":"./img/Homer.png",
+    "name":"Homer Simpson"
+},
+{
+    "id":7,
+    "img":"./img/Itchy.png",
+    "name":"Itchy"
+},
+{
+    "id":8,
+    "img":"./img/Krabbapel.png",
+    "name":"Edna Krabbapel"
+},
+{
+    "id":9,
+    "img":"./img/Krusty.png",
+    "name":"Krusty the Clown"
+},
+{
+    "id":10,
+    "img":"./img/Lisa.png",
+    "name":"Lisa Simpson"
+},
+{
+    "id":11,
+    "img":"./img/Maggie.png",
+    "name":"Maggie Simpson"
+},
+{
+    "id":12,
+    "img":"./img/Marge.png",
+    "name":"Marge Simpson"
+},
+{
+    "id":13,
+    "img":"./img/Maude.png",
+    "name":"Maude Flanders"
+},
+{
+    "id":14,
+    "img":"./img/Milhouse.png",
+    "name":"Milhouse"
+},
+{
+    "id":15,
+    "img":"./img/Moe.png",
+    "name":"Moe the Bartender"
+},
+{
+    "id":16,
+    "img":"./img/Mr. Burns.png",
+    "name":"C. Montgomery Burns"
+},
+{
+    "id":17,
+    "img":"./img/Ned.png",
+    "name":"Ned Flanders"
+},
+{
+    "id":18,
+    "img":"./img/Otto.png",
+    "name":"Otto"
+},
+{
+    "id":19,
+    "img":"./img/Patty.png",
+    "name":"Patty"
+},
+{
+    "id":20,
+    "img":"./img/Quimby.png",
+    "name":"Mayor Quimby"
+},
+{
+    "id":21,
+    "img":"./img/Ralph.png",
+    "name":"Ralph Wiggum"
+},
+{
+    "id":22,
+    "img":"./img/Santas.png",
+    "name":"Santas Little Helper"
+},
+{
+    "id":23,
+    "img":"./img/Selma.png",
+    "name":"Selma"
+},
+{
+    "id":24,
+    "img":"./img/SideshowBob.png",
+    "name":"Sideshow Bob"
+},
+{
+    "id":25,
+    "img":"./img/Skinner.png",
+    "name":"Principal Skinner"
+},
+{
+    "id":26,
+    "img":"./img/Smithers.png",
+    "name":"Waylon Smithers"
+},
+{
+    "id":27,
+    "img":"./img/Willie.png",
+    "name":"Groundskeeper Willie"
+}
+]

@@ -7,14 +7,11 @@ class ScoreCounter extends Component {
         topScore:0
     }
 
-
-
-
     render(){
         return (
         <span className= "col text-right">Score: {this.state.score} | Top Score: {this.state.topScore}
         </span>
-        )
+        );
     }
 }
 

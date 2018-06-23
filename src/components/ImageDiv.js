@@ -6,37 +6,31 @@ import characters from "../Images.json";
 class ImageDiv extends Component {
 
     state = {
-        clicked: false
+        clicked: false,
+        shuffledArray: []
     }
 
     componentDidMount() {
-        this.randomArray(16, 27);
+        this.shuffle(characters);
     }
 
-    shuffle = (a) => {
-        for (let i = a.length - 1; i > 0; i--) {
+    shuffle = (arr) => {
+        for (let i = arr.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            [a[i], a[j]] = [a[j], a[i]];
+            [arr[i], arr[j]] = [arr[j], arr[i]];
         }
-        return a;
+        console.log(arr)
+        arr.splice(0,7);
+        this.setState({ shuffledArray: arr })
     }
-
-    // randomArray = (length, max) => {
-    //     let idArray = [...new Array(length)]
-    //         .map(() => Math.round(Math.random() * max));
-    //     this.getRandomImgs(idArray);
-    // }
-
 
     render() {
         return (
             <div className="container">
-
-                {characters.map(char => {
+                {this.state.shuffledArray.map(char => {
+                    
                     return <ImgCard {...char} />
                 })}
-
-
             </div>
         )
     }

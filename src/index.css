@@ -1,17 +1,21 @@
+/* body {
+    display:flex;
+    align-items:center;
+  } */
+
 .jumbotron {
     min-height: 350px;
     /*background-image */
 }
 
 .card {
-    display: inline-block;
+    display: inline-flex;
     max-height: 200px;
     margin:5px;
 
 }
 
 .img-container {
-
     max-height: 200px;
 }
 

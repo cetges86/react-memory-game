@@ -5,8 +5,11 @@ import characters from "../Images.json";
 
 class ImageDiv extends Component {
 
+    // constructor(props) {
+    //     super(props);
+    // }
+
     state = {
-        clicked: false,
         shuffledArray: []
     }
 
@@ -19,18 +22,20 @@ class ImageDiv extends Component {
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
         }
-        console.log(arr)
-        arr.splice(0, 7);
+        console.log(JSON.stringify(arr))
+        arr.splice(0, 15);
         this.setState({ shuffledArray: arr })
     }
 
     render() {
         return (
-            <div className="container">
+            <div id="pictureContainer" className="container">
                 <div className="row h-100 justify-content-center align-items-center">
                     {this.state.shuffledArray.map(char => {
-
-                        return <ImgCard {...char} />
+                        return <ImgCard
+                            shuffle={this.shuffle}
+                            characters={this.characters}
+                            {...char} />
                     })}
                 </div>
             </div>

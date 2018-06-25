@@ -1,18 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
 
-class ScoreCounter extends Component {
+const ScoreCounter = (props) => (
+    <span className="col text-right">Score: {props.score} | Top Score: {props.topScore}
+    </span>
+);
 
-    state = {
-        score: 0,
-        topScore:0
-    }
 
-    render(){
-        return (
-        <span className= "col text-right">Score: {this.state.score} | Top Score: {this.state.topScore}
-        </span>
-        );
-    }
-}
 
 export default ScoreCounter;

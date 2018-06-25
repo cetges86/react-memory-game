@@ -5,6 +5,4 @@ const ScoreCounter = (props) => (
     </span>
 );
 
-
-
 export default ScoreCounter;

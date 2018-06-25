@@ -11,13 +11,16 @@
 .card {
     display: inline-flex;
     max-height: 200px;
-    margin:5px;
+    margin:10px;
     border:4px solid lightgrey;
 
 }
 
 #pictureContainer {
     border:1px solid black;
+    background-color:rgba(18, 197, 181,0.8);
+    padding:5px;
+
 }
 
 .img-container {
@@ -25,7 +28,18 @@
 
 }
 
+.card:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
 img {
     height: 200px;
-    margin-left: 25px;
+    margin-left: 18%;
 }

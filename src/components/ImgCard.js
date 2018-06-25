@@ -29,7 +29,7 @@ class ImgCard extends Component {
 
   render() {
     return (
-      <div className="card col-3 shadow-lg">
+      <div className="card col-3">
         <div className="img-container" >
           <img alt={this.props.name} src={this.props.img} onClick={this.handleClick} />
         </div>

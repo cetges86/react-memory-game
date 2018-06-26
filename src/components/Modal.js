@@ -21,7 +21,7 @@ class ModalPage extends React.Component {
   render() {
     return (
       <Container>
-        <Button color="danger" onClick={this.toggle}>Oh No! Click Here!</Button>
+        <Button className= "animated wobble" color="danger" onClick={this.toggle}>Oh No! Click Here!</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Game Over! D'oh! </ModalHeader>
           <ModalBody>

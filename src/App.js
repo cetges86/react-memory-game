@@ -94,7 +94,7 @@ class App extends Component {
 
                 <div className="jumbotron">
                     <h1 className="text-center align-middle"> Welcome to <img alt="simpsons logo" id = "banner"src={simpsons} /> Memory Game</h1>
-                    <h6 className="text-center">Click on an image to earn points, but don't click on any more than once!</h6>
+                    <h6 className="text-center">Click on an image to earn points, but don't click on anybody more than once!</h6>
                 </div>
 
                 <div id="pictureContainer" className="container shadow-lg">

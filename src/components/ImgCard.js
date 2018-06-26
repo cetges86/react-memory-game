@@ -6,8 +6,8 @@ class ImgCard extends Component {
   render() {
     return (
       <div className="card col-3">
-        <div className="img-container" >
-          <img className="cardImg" alt={this.props.name} src={this.props.img} onClick={() => this.props.handleClick(this.props.name)} />
+        <div className="img-container" onClick={() => this.props.handleClick(this.props.name)} >
+          <img className="cardImg" alt={this.props.name} src={this.props.img} />
         </div>
       </div>
     )

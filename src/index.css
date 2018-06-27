@@ -93,3 +93,48 @@ h1 {
 .btn {
     font-size:110%;
 }
+
+@media screen and (max-width:480px){
+  body {
+      font-size:80%;
+  }
+
+  .navbar-brand {
+    font-size:70%;
+  }
+  .text-right {
+    font-size:80%;
+    text-align: center !important;
+  }
+
+  .jumbotron {
+      width:101%;
+  }
+
+  h1 {
+      margin-top:14%;
+  }
+
+  .card {
+      margin:5% 10%;
+  }
+
+  .cardImg {
+      margin-left:22%;
+  }
+
+};
+
+@media screen and (min-width:480px) and (max-width:768px){
+    .navbar-brand {
+        font-size:70%;
+      }
+      .text-right {
+        font-size:80%;
+        text-align: center !important;
+      }
+
+      .cardImg {
+          margin-left:23%;
+      }
+}

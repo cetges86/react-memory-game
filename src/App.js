@@ -30,12 +30,13 @@ class App extends Component {
         let newArr = arr.slice(15);
         //console.log(newArr)
         this.setState({ shuffledArray: newArr })
-    }
+    };
 
+    //opens and closes modal
     toggle = () => {
         this.setState({ modal: !this.state.modal });
         this.gameReset();
-    }
+    };
 
     //increases your score when you get a character right, and ends the game if there are no more characters
     //Also updates message displayed
@@ -64,7 +65,8 @@ class App extends Component {
             //launches modal and resets games
             this.setState({
                 shuffledArray: [],
-                message: "You're a failure!",
+                message: "You lose!",
+                //triggers modal activation
                 modal: !this.state.modal
             });
         } else {
@@ -89,7 +91,8 @@ class App extends Component {
                 ? this.state.score
                 : this.state.topScore,
             score: 0,
-            message: "Click a picture to begin!"
+            message: "Click a picture to begin!",
+            unchosenChar:characters
         })
         this.shuffle(characters);
     }
@@ -131,7 +134,7 @@ class App extends Component {
                     <img id="logo" name="Built with ReactJS" alt="Built with ReactJS" src={logo} />
                     </div>
                 </footer>
-
+                {/* renders modal when toggled */}
                 <Modal
                     gameReset={this.gameReset}
                     toggle={this.toggle}
